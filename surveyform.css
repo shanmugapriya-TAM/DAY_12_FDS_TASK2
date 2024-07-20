@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(14, 13, 13);
+}
+
+.form {
+    width: 1000px;
+    height: 100%;
+    background-color: white;
+    margin-left: 350px
+}
+
+.container {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.labels-name {
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.help-text {
+    font-size: small;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.labels-others {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mailid {
+    width: 300px;
+    height: 25px;
+}
+
+.rating {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    color: orange;
+}
+
+.rating input:checked~label {
+    color: orange;
+}
+
+.rating-text {
+    font-size: 12px;
+}
+
+.row1 {
+    background-color: rgb(223, 225, 227);
+    margin: 0;
+    padding: 0;
+}
+
+.form-check-custom {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.pb-4 {
+    margin-left: 0
+}
+
+.pb-5 {
+    margin-left: 0
+}
+
+.table-stripped>thead>tr>th {
+    font-weight: normal;
+    margin: 20px;
+    padding: 5px;
+    width: 120px;
+}
+
+.table-stripped>tbody>tr>th {
+    font-weight: normal;
+    display: flex;
+    width: 120px;
+
+
+}
+
+.comment-box {
+    height: 100px;
+    width: 100%;
+}
+
+.Submit {
+    margin-top: 20px;
+}
